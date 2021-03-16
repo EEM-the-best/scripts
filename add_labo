@@ -1,5 +1,3 @@
-#!/bin/bash
-
 if [ -z "$1" ]
 then
   echo "Enter a filename..."
@@ -20,7 +18,7 @@ then
   printf '/**
   \\file     %s.c
   \\brief
-  \\author   Leo Vaucher
+  \\author   modifiez ça dans le fichier add_labo l.23
   \\version  1.0
   \\date     ' $1 >> $1.c
   date +"%Y-%m-%d" >> $1.c
@@ -32,7 +30,7 @@ printf '  \\details
 
 int main(int argc, char const *argv[])
 {
-
+  puts("Hello world");
   return 0;
 }' >> $1.c
 
