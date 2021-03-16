@@ -5,8 +5,9 @@ Scripts utiles pour tout et n'importe quoi
 ### Installation
 ```bash
 #Dans le dossier où se trouve add_labo
-cp add_labo ~/.local/bin/
+cp add_labo.sh /bin
 ```
+
 ### Utilisation
 ```bash
 #Dans le dossier où se trouve add_labo:
