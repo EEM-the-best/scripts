@@ -16,11 +16,11 @@ then
 
   #Put text in file.c
   printf '/**
-  \\file     %s.c
-  \\brief
-  \\author   modifiez ça dans le fichier add_labo l.23
-  \\version  1.0
-  \\date     ' $1 >> $1.c
+    \\file    %s.c
+    \\brief   
+    \\author  modifiez ça dans le fichier add_labo l.23
+    \\version 1.0
+    \\date    ' $1 >> $1.c
   date +"%Y-%m-%d" >> $1.c
 printf '  \\details
 **/
@@ -59,6 +59,9 @@ all: clean $(EXEC)
 
 $(EXEC): $(OBJS)
 	$(CC) -o $@ $^ $(LDFLAGS) $(LDLIBS)
+
+debug: $(SRC)
+	$(CC) -g $^ -o $(EXEC) $(LDLIBS)
 
 $(ODIR)/%.o: %.c | $(ODIR)
 	$(CC) $(CFLAGS) -c $< -o $@ -MMD -MF $(@:.o=.d)
