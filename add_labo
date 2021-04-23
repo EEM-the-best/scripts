@@ -18,7 +18,7 @@ then
   printf '/**
     \\file    %s.c
     \\brief   
-    \\author  modifiez ça dans le fichier add_labo l.23
+    \\author  AuthorName
     \\version 1.0
     \\date    ' $1 >> $1.c
   date +"%Y-%m-%d" >> $1.c
