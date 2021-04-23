@@ -1,12 +1,15 @@
 # scripts
 Scripts utiles pour tout et n'importe quoi
 
+## installation
+```bash
+#Dans le dossier principal du projet vscode, genre là où il y a tous les ex.
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/EEM-the-best/scripts/main/install.sh?token=AQ7YIYUCD2CGTGWDBLJVDGTAQJ63Q)"
+#Puis suivre les instructions
+```
 ## add_labo:
 ### Installation
-```bash
-#Dans le dossier où se trouve add_labo
-cp add_labo /bin
-```
+
 
 ### Utilisation
 ```bash
