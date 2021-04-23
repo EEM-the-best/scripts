@@ -8,8 +8,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/EEM-the-best/scripts/main/
 #Puis suivre les instructions
 ```
 ## add_labo:
-### Installation
-
 
 ### Utilisation
 ```bash
