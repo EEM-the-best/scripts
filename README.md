@@ -4,6 +4,7 @@ Scripts utiles pour tout et n'importe quoi
 ## installation
 ```bash
 #Dans le dossier principal du projet vscode, genre là où il y a tous les ex.
+aptupdate && apt install curl
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/EEM-the-best/scripts/main/install.sh)"
 #Puis suivre les instructions
 ```
