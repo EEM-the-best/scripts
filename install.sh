@@ -5,6 +5,7 @@ git clone https://github.com/EEM-the-best/scripts.git
 read -p "Enter your name: " name
 sed -i 's/AuthorName/'"${name}"'/g' scripts/add_labo
 cp scripts/add_labo /usr/bin
+chmod +x /usr/bin/add_labo
 rm -rf scripts
 echo "add_labo installé, relancez le terminal pour l'utiliser"
 
